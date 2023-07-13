@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+
+header {
+    background-image: url(img/img01.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.heading {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 70px;
+    margin: 30px 0px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list-item {
+    margin: 30px 20px;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.icon {
+    display: none;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0 auto;
+    padding: 150px;
+    text-align: center;
+}
+
+.main-top {
+    margin-bottom: 50px;
+}
+
+.main-top h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0px 40px;
+}
+
+.main-top p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    margin-top: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+.main-top span {
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+.main-bottom h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.example1 {
+    margin-right: 70px;
+}
+
+.example1 img {
+    height: 300px;
+}
+
+.example1 h2 {
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.example1 p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.example2 {
+    margin-left: 70px;
+}
+
+.example2 img {
+    height: 300px;
+}
+
+.example2 h2 {
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.example2 p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.list {
+    padding: 90px 0px 150px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text {
+    padding: 15px;
+    border: 1px solid #000000;
+    font-size: 24px;
+}
+
+.img-group {
+    width: 100%;
+    display: flex;
+}
+
+.img7 img {
+    width: 100%;
+}
+
+.img8 img {
+    width: 100%;
+}
+
+.img9 img {
+    width: 100%;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+.footing {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.footing img {
+    height: 50px;
+}
+
+.nav-footer-list {
+    list-style: none;
+    display: flex;
+    height: 50px;
+}
+
+.nav-footer-list-item {
+    margin: 0 20px;
+    line-height: 50px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width:960px) {
+    
+    .nav-list {
+        display: none;
+    }
+    
+    .nav-list-item {
+        display: none;
+    }
+    
+    .icon {
+        display: block;
+        font-size: 50px;
+        vertical-align: middle;
+        padding-top:30px;
+    }
+    
+    .main-top p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0px;
+        margin-top: 10px;
+        border-bottom: 1px solid #000000;
+    }
+    
+    .main-bottom h1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 90px 0px 30px;
+    }
+
+    .box {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .example1 {
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .example1 img {
+        height: 500px;
+    }
+    
+    .example1 h2 {
+        text-align: center;
+        padding-top: 20px; 
+    }
+    
+    .example1 p {
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #000000;
+    }
+    
+    .example2 {
+        margin-left: 0px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .example2 img {
+        height: 500px;
+    }
+    
+    .example2 h2 {
+        text-align: center;
+        padding-top: 30px; 
+    }
+    
+    .example2 p {
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #000000;
+    }
+    
+    .img-group {
+        width: 100%;
+        display: block;
+    }
+    
+    .footing {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    
+    .footing img {
+        width: 20%;
+        margin: 0 auto;
+    }
+    
+    .nav-footer-list {
+        list-style: none;
+        display: block;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .nav-footer-list-item {
+        margin: 0 20px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+}
