@@ -25,6 +25,7 @@ header {
 .main1 {
     height: 250px;
     text-align: center;
+    padding-top: 20px;
 }
 
 .main1 p {
@@ -39,14 +40,16 @@ header {
 }
 
 .main2-item {
-    width: 70%;
+    width: 950px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
 }
 
 .main2-left {
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .main2-left p {
@@ -55,6 +58,7 @@ header {
 
 .main2-app {
     display: flex;
+    padding-top: 20px;
 }
 
 .main2-app img {
@@ -62,8 +66,8 @@ header {
     padding-right: 20px;
 }
 
-.main-right {
-    
+.main2-right {
+    padding-left: 20px;
 }
 
 .main2-right img {
@@ -72,5 +76,26 @@ header {
 
 .main3 {
     width: 100%;
-    height: 200px;
+    height: 400px;
+    background-color: #ECDDD6;
+    display: flex;
+    align-items: center;
+}
+
+.main3-img {
+    height: 400px;
+    padding-left: 50px;
+}
+
+.main3-img img {
+    height: 100%;
+}
+
+.main3-text {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.main3-text h2 {
+    padding-bottom: 20px;
 }
