@@ -4,3 +4,73 @@
     box-sizing: border-box;
 }
 
+header {
+    width: 100%;
+    height: 950px;
+    background-image: url("img/header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.logo {
+    text-align: center;
+    line-height: 950px;
+    padding-top: 50px;
+}
+
+.logo img {
+    height: 145px;
+}
+
+.main1 {
+    height: 250px;
+    text-align: center;
+}
+
+.main1 p {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.main2 {
+    height: 500px;
+    width: 100%;
+    background-color: #fffaf0;
+}
+
+.main2-item {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main2-left {
+    padding-right: 50px;
+}
+
+.main2-left p {
+    padding: 20px 0px;
+}
+
+.main2-app {
+    display: flex;
+}
+
+.main2-app img {
+    height: 50px;
+    padding-right: 20px;
+}
+
+.main-right {
+    
+}
+
+.main2-right img {
+    height: 400px;
+}
+
+.main3 {
+    width: 100%;
+    height: 200px;
+}
