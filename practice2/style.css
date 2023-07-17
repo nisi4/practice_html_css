@@ -25,7 +25,8 @@ header {
 .main1 {
     height: 250px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    margin-bottom: 20px;
 }
 
 .main1 p {
@@ -377,17 +378,152 @@ header {
 
 .card-group {
     display: flex;
+    justify-content: center;
 }
 
-.card {
+.card1 {
     height: 600px;
+    width: 400px;
+    margin-right: 50px;
 }
 
-.card-img {
+.card2 {
+    height: 600px;
+    width: 400px;
+}
+
+.card-img1 {
+    height: 300px;
     background-image: url("img/lineup_thumb01-cc43d2971669590061fab3bb5fb7ea5ce90d93bf7bd4cba8fbbf400cd5585db3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.card-img2 {
+    height: 300px;
+    background-image: url("img/lineup_thumb02-6d5a949b875c666b15e9da14bda5305c8259943df9afc484edb6d03825513e61.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 50px 0px 0px;
 }
 
 .card-text {
     height: 300px;
     background-color: #ffffff;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.card-text h2 {
+    padding: 20px;
+}
+
+.card-body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.card-body p {
+    font-size: small;
+    padding-bottom: 10px;
+    margin: 0px 50px;
+}
+
+.main10 {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.media {
+    padding: 20px 0px;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 150px;
+}
+
+.media img {
+    margin-right: 20px;
+    height: 40px;
+}
+
+.main11 {
+    background-color: #fffaf0;
+}
+
+.main11 h2 {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.main11-qa {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.main11-qa h3 {
+    padding: 20px 0px;
+}
+
+.main11-qa p {
+    padding-left: 20px;
+}
+
+.footing {
+    background-color: #3f434a;
+    color: white;
+}
+
+.footing-img {
+    background-image: url("img/bg_app_bottom-de5cf589e38bd2038e4a7575fc900c805be8f4a1d5ad9a07530c6c9ec2d1bd9e.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    padding-top: 200px;
+}
+
+.footing-img img {
+    height: 100px;
+}
+
+.footing-img p {
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.footing-app a img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footing-bottom {
+    padding: 50px 0px 0px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-style {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.footing-sns {
+    padding: 50px 0px 20px;
+    text-align: center;
+}
+
+.footing-sns img {
+    height: 30px;
+    margin: 0px 20px;
+}
+
+.footing-copyright {
+    text-align: center;
+    padding: 30px 0px;
+    color: gray;
 }
