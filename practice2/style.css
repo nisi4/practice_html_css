@@ -99,3 +99,295 @@ header {
 .main3-text h2 {
     padding-bottom: 20px;
 }
+
+.main4 {
+    width: 100%;
+    height: 400px;
+    background-color: #D9D0E3;
+    display: flex;
+    align-items: center;
+}
+
+.main4-img {
+    height: 400px;
+}
+
+.main4-img img {
+    height: 100%;
+}
+
+.main4-text {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.main4-text h2 {
+    padding-bottom: 20px;
+}
+
+.main5 {
+    width: 100%;
+    height: 400px;
+    background-color: #c9d4da;
+    display: flex;
+    align-items: center;
+}
+
+.main5-img {
+    height: 400px;
+    padding-left: 50px;
+}
+
+.main5-img img {
+    height: 100%;
+}
+
+.main5-text {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.main5-text h2 {
+    padding-bottom: 20px;
+}
+
+.main6-item {
+    padding-bottom: 50px;
+    background-color: #fffaf0;
+}
+
+.main6-text {
+    padding: 60px 0px 10px;
+    text-align: center;
+}
+
+.main6-text p {
+    padding-top: 10px;
+}
+
+.item-scroll {
+    display: flex;
+    height: 350px;
+    margin: 20px 0px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.item {
+    height: 350px;
+    margin: 0 10px;
+}
+
+.item img {
+    height: 100%;
+}
+
+.item-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.main7 {
+    width: 100%;
+    height: 400px;
+    margin: 50px 0px;
+}
+
+.main7 h2 {
+    text-align: center;
+}
+
+.main7-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.main7-box img {
+    height: 80px;
+}
+
+.main7-app {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.main7-app img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.main7-app p {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.main7-home {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.main7-home img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.main7-home p {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.main7-lifestyle {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.main7-lifestyle img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.main7-lifestyle p {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.main8 {
+    padding: 50px 0px;
+    background-color: #fffaf0;
+}
+
+.main8-insta h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main8-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 420px;
+    width: 860px;
+}
+
+.insta-img1 {
+    background-image: url("img/instagram_post01-bf81d1f9d44f1ab0e9b32d21d16bfe864fd672a32dd649cc4db1977f1c306c4a.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.insta-img2 {
+    background-image: url("img/instagram_post02-84fc4efea25500fc02bbd5d6195b76098860959f5d6290dc908fd6479e2399d4.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.insta-img3 {
+    background-image: url("img/instagram_post03-e152baa473b96a153a4d8b7f3987b5369dcfce5e53e541bf9bf888d0e1e5a37d.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.insta-img4 {
+    background-image: url("img/instagram_post04-b95fb662a83f9fe6ee782d775383bab323b35da2e92a37f72f7dd532e99eef20.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.insta-img5 {
+    background-image: url("img/instagram_post05-6adf69e03264087c99c7898bd9d7670deb78de938d0674c720be00e93ccf12de.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.insta-img6 {
+    background-image: url("img/instagram_post06-4e0f9e713b6054486a4c616ecf9d3d209b7599980471d907d7db095c4fdcd105.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.insta-img7 {
+    background-image: url("img/instagram_post07-ec0e6c8c6d484650e8153d940e984456f15c128b627caf5d2dd312803d7dbb6f.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.insta-img8 {
+    background-image: url("img/instagram_post08-5614e7c0303887cc3007b6e1c72b193182e95dbd8ca9b748f10eacaa74c092cb.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+}
+
+.insta-icon img {
+    height: 30px;
+}
+
+.button {
+    margin: 60px 0px 30px;
+    text-align: center;
+}
+
+.button span {
+    padding: 20px;
+    border: solid 1px #000000;
+    border-radius: 100px;
+    color: #000000;
+}
+
+.button a {
+    text-decoration: none
+}
+
+.main9 {
+    width: 100%;
+    height: 800px;
+    background-color: #fff0f5;
+    text-align: center;
+}
+
+.main9 h2 {
+    padding: 50px;
+}
+
+.card-group {
+    display: flex;
+}
+
+.card {
+    height: 600px;
+}
+
+.card-img {
+    background-image: url("img/lineup_thumb01-cc43d2971669590061fab3bb5fb7ea5ce90d93bf7bd4cba8fbbf400cd5585db3.jpg");
+}
+
+.card-text {
+    height: 300px;
+    background-color: #ffffff;
+}
