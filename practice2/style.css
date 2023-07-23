@@ -902,12 +902,19 @@ header {
         padding: 50px;
     }
     
+    .card {
+        overflow-x: scroll;        
+    }
+    
+    .card::-webkit-scrollbar {
+        display: none;
+    }
+    
     .card-group {
         display: flex;
         justify-content: start;
         align-items: center;
         width: 800px;
-        overflow-x: scroll;
     }
     
     .card1 {
