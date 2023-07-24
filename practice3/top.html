@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="top.css"/>
         <title>PAS-POL-旅のモノづくりブランド-</title>
     </head>
     <body>
         <header>
             <div class="heading">
-                <div class="heading-top">
-                    <div class="heading-header">
-                        <img src="top_img/siteLogo-pc@2x.png">
-                        <nav>
-                            <ul class="nav-list">
-                                <li class="nav-list-item">TOP</li>
-                                <li class="nav-list-item">PRODUCT</li>
-                                <li class="nav-list-item">ABOUT</li>
-                                <li class="nav-list-item">NEWS</li>
-                                <li class="nav-list-item">CONTACT</li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="heading-arrow">
-                        <img src="top_img/mainVisual-arrow@2x.png">
-                    </div>
-                    <div class="heading-overlay">
-                        <img src="top_img/mainVisual-overlay@2x.png">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide sw-1" style="background:url('top_img/main_visual_2-0x0.jpg') no-repeat;background-size:cover;background-position:center;">
+                            <div class="heading-header">
+                                <img src="top_img/siteLogo-pc@2x.png">
+                                <nav>
+                                    <ul class="nav-list">
+                                        <li class="nav-list-item">TOP</li>
+                                        <li class="nav-list-item">PRODUCT</li>
+                                        <li class="nav-list-item">ABOUT</li>
+                                        <li class="nav-list-item">NEWS</li>
+                                        <li class="nav-list-item">CONTACT</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="heading-arrow">
+                                <img src="top_img/mainVisual-arrow@2x.png">
+                            </div>
+                            <div class="heading-overlay">
+                                <img src="top_img/mainVisual-overlay@2x.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide sw-2" style="background:url('top_img/main_visual_6-0x0.jpg') no-repeat;background-size:cover;background-position:center;">
+                        </div>
                     </div>
                 </div>
                 <div class="heading-bottom">
@@ -56,5 +64,7 @@
                 </div>
             </div>
         </header>
+        <script src="jquery.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>

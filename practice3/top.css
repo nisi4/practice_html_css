@@ -14,13 +14,45 @@ body {
     background-color: #f6f6f6;
 }
 
-.heading-top {
+.swiper {
     width: 100%;
     height: 90vh;
-    background-image: url("top_img/main_visual_2-0x0.jpg");
+    position: relative;
+}
+
+.swiper-wrapper {
+    display: block;
+}
+
+.swiper-slide sw-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide sw-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide3 {
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    position: relative;
+}
+
+.swiper-slide4 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide5 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .heading-header {
