@@ -15,3 +15,9 @@ $(function(){
         event.preventDefault();
     });
 });
+
+$(function(){
+    $('.heading-header2').on('click',function(event){
+        $('.heading-header').slideToggle();
+    });
+});
