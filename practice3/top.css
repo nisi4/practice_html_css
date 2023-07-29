@@ -61,9 +61,8 @@ a {
     color: #fff;
 }
 
-.nav-list-item a {
-    text-decoration: none;
-    color: #ffffff;
+.logo {
+    display: none;
 }
 
 .heading-arrow {
@@ -235,10 +234,11 @@ a {
 
 .sns {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 60%;
     margin: 0 auto;
     padding: 50px 0px;
+    text-align: center;
 }
 
 .sns a {
@@ -247,6 +247,7 @@ a {
 
 .facebook {
     padding: 10px;
+    margin: 0px 20px 0px;
     border: 1px solid #4871a9;
     color: #4871a9;
 }
@@ -258,6 +259,7 @@ a {
 
 .twitter {
     padding: 10px;
+    margin: 0px 20px 0px;
     border: 1px solid #70bdd3;
     color: #70bdd3;
 }
@@ -269,6 +271,7 @@ a {
 
 .bookmark {
     padding: 10px;
+    margin: 0px 20px 0px;
     border: 1px solid #2f9bcd;
     color: #2f9bcd;
 }
@@ -278,6 +281,10 @@ a {
     color: white;
 }
 
+.line {
+    display: none
+}
+
 .footing-middle {
     background-color: #939899;
 }
@@ -285,6 +292,18 @@ a {
 .footing-middle nav {
     width: 30%;
     margin: 0 auto;
+}
+
+.footing-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footing-nav-list-item  {
+    margin: 20px;
+    color: #fff;
 }
 
 .footing-bottom {
@@ -310,6 +329,24 @@ a {
 }
 
 @media screen and (max-width:900px) {
+    
+    .logo {
+        display: block;
+        width: 100%;
+        padding-top: 250px;
+        text-align: center;
+    }
+    
+    .logo img {
+        height: 120px;
+    }
+    
+    .logo p {
+        color: #fff;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    
     .heading-header {
         display: none;
         padding: 0px;
@@ -353,5 +390,149 @@ a {
         height: 10px;
     }
     
+    .section {
+        width: 100%;
+        margin: 0 auto;
+    }
     
+    .section-main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .topic-img {
+        width: 40%;
+        padding-right: 50px;
+    }
+    
+    .topic-img img {
+        width: 100%;
+    }
+    
+    .topic-text {
+        width: 50%;
+        padding-bottom: 60px;
+        color: #060606;
+    }
+    
+    .sns {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0px;
+    }
+    
+    .icon {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    
+    .icon img {
+        height: 100px;
+    }
+    
+    .icon p {
+        color: white;
+        font-size: 11px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    
+    .sns {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px 0px;
+    }
+    
+    .sns a {
+        width: 50%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .line {
+        display: block;
+        padding: 10px;
+        margin: 0px 20px 0px;
+        border: 1px solid #8ec09d;
+        color: #8ec09d;
+        text-align: center;
+    }
+    
+    .line:hover {
+        background-color: #8ec09d;
+        color: white;
+    }
+    
+    .footing-middle {
+        background-color: #939899;
+    }
+    
+    .footing-middle nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .footing-nav-list {
+        display: block;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .footing-nav-list-item  {
+        width: 100%;
+        margin: 0px;
+        padding: 20px 0px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .section {
+        width: 100%;
+    }
+    
+    .section-main {
+        width: 100%;
+    }
+    
+    .topic {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    
+    .topic-img {
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .topic-img img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .topic-text {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        color: #060606;
+    }
+    
+    .topic-text p:last-child {
+        display: none;
+    }
 }
