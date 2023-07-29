@@ -203,3 +203,95 @@ body {
 .topic-text p {
     padding: 10px 0px;
 }
+
+#btn {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #f6f6f6 0%,#f6f6f6 50%,#fff 50%,#fff 100%);
+}
+
+#btn img {
+    width: 50px;
+}
+
+#btn img:hover {
+    cursor: pointer;
+    transform: translateY(-0.1875em);
+}
+
+.sns {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.sns a {
+    text-decoration: none;
+}
+
+.facebook {
+    padding: 10px;
+    border: 1px solid #4871a9;
+    color: #4871a9;
+}
+
+.facebook:hover {
+    background-color: #4871a9;
+    color: white;
+}
+
+.twitter {
+    padding: 10px;
+    border: 1px solid #70bdd3;
+    color: #70bdd3;
+}
+
+.twitter:hover {
+    background-color: #70bdd3;
+    color: white;
+}
+
+.bookmark {
+    padding: 10px;
+    border: 1px solid #2f9bcd;
+    color: #2f9bcd;
+}
+
+.bookmark:hover {
+    background-color: #2f9bcd;
+    color: white;
+}
+
+.footing-middle {
+    background-color: #939899;
+}
+
+.footing-middle nav {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footing-bottom {
+    background-color: #656c6e;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.icon img {
+    height: 100px;
+}
+
+.icon p {
+    color: white;
+    font-size: 11px;
+}

@@ -6,3 +6,12 @@ const swiper = new Swiper ('.swiper', {
         disableOnInteraction: true,
     },
 });
+
+$(function(){
+    $('#btn a').on('click',function(event){
+        $('body,html').animate({
+            scrollTop:0
+        },800);
+        event.preventDefault();
+    });
+});
