@@ -54,10 +54,50 @@ a {
     height: 400px;
     margin-right: 40px;
     margin-bottom: 40px;
+    border: 1px solid #f5f5f5;
+}
+
+.box:hover {
+    box-shadow: 2px 5px 5px 5px #f5f5f5;
+    transform: translateY(-5px);
+    color: 24%;
 }
 
 .box:nth-child(even) {
     margin-right: 0px;
+}
+
+.box-text {
+    font-size: smaller;
+}
+
+.box1-img,.box2-img,.box3-img,.box4-img,.box5-img,.box6-img,.box7-img,.box8-img,.box9-img,.box10-img,.box11-img,.box12-img {
+    padding: 10px 0 0 10px;
+}
+
+.box span {
+    font-size: 10px;
+    padding: 20px 0 0 10px;
+    padding: 8px;
+    background-color: #9acd32;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.box-text {
+    position: relative;
+}
+
+.box-text h2 {
+    padding: 10px;
+}
+
+.box-text p {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: #c0c0c0;
 }
 
 .box1-img {
