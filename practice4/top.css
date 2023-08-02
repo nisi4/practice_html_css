@@ -214,6 +214,10 @@ a {
     text-align: center;
 }
 
+.btn:hover {
+    opacity: 0.5;
+}
+
 .btn p {
     padding: 10px 40px;
     margin-top: 30px;
@@ -233,11 +237,25 @@ a {
 
 .sub-box-icon {
     text-align: center;
+    margin: 0 auto;
 }
 
-.sub-box-icon img {
-    margin-top: 50px;
+.sub-box-icon-img {
     border-radius: 80px;
+    margin: 50px auto 0;
+    width: fit-content;
+    height: 150px;
+    overflow: hidden;
+}
+
+.sub-box-icon-img img {
+    height: 150px;
+    border-radius: 80px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sub-box-icon-img img:hover {
+    transform: scale(1.2);
 }
 
 .sub-box-icon h3 {
@@ -252,6 +270,10 @@ a {
 .btn2 {
     height: 100px;
     text-align: center;
+}
+
+.btn2:hover {
+    opacity: 0.5;
 }
 
 .btn2 p {
@@ -280,7 +302,7 @@ a {
     border-bottom: 1px solid #060606;
 }
 
-.sub-main {
+.sub-main a {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -300,4 +322,32 @@ a {
 .sub-main p {
     width: 45%;
     padding: 0;
+    color: #060606;
+}
+
+.sub-main p:hover {
+    color: red;
+}
+
+.select {
+    margin: 0 20px 30px;
+}
+
+.tag-group {
+    margin: 0 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    color: #060606;
+    padding: 5px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #060606;
+    font-size: 11px;
+}
+
+.tag:hover {
+    color: #fff;
+    background-color: #060606;
 }
